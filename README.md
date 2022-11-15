@@ -4,7 +4,7 @@
 This group project is a requirement for **ALX Africa's Software Engineering program**.
 Using the **C** programming language, we put our knowledge of how Unix-based computers' terminals function into practice.
 
-## Contributors :sunglasses:s
+## Contributo:sunglasses:rs
 
 * [**Emmanuel Diogu**](https://github.com/emmanueldiogu)
 * [**Vincent Obaro**](https://github.com/vincelogs)
