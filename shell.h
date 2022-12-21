@@ -1,5 +1,5 @@
-#ifndef _SHELL_H_
-#define _SHELL_H_
+#ifndef SHELL_H
+#define SHELL_H
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -36,6 +36,18 @@
 
 extern char **environ;
 
+int _putchar(char c);
+void _puts(char *str);
+int _strlen(char *s);
+char *_strdup(char *str);
+char *concat_all(char *name, char *sep, char *value);
+
+char **splitstring(char *str, const char *delim);
+void execute(char **argv);
+void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
+
+
+extern char **environ;
 
 /**
  * struct liststr - singly linked list
